@@ -6,6 +6,6 @@ void main()
     scanf("%d",&n);
     for(i=1; i<=n; i++)
     printf("HELLO\n");
-    return 0;
+    getch();
     
 }
