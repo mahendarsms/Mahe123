@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<conio.h>
-int main(void) {
+int main(void) 
+{
 	int a,i;
 	scanf("%d",&a);
 	i=0;
@@ -10,7 +11,6 @@ int main(void) {
 	
 		i++;
 	}
-	
 	printf("%d",i);
 	return 0;
   }
