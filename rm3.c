@@ -1,12 +1,9 @@
 #include <stdio.h>
- 
 int main()
 {
   char ch;
- 
   printf("Input a character\n");
   scanf("%c", &ch);
- 
   switch(ch)
   {
     case 'a':
@@ -24,6 +21,5 @@ int main()
     default:
       printf("%c is not a vowel.\n", ch);
   }              
- 
-  return 0;
+  getch();
 }
