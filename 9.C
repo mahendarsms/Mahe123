@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
-int main(void) {
+int main(void) 
+{
 	int a[10000],n,k,sum;
 	sum=0;
 	scanf("%d",&n);
