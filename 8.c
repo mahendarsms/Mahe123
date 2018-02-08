@@ -10,4 +10,5 @@ for (i=a;i<=n;i++)
 sum+=i;
 }
 printf("sum=%d",sum);
+getch();
 }
