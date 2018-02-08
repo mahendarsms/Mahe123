@@ -12,5 +12,5 @@ int main(void)
 		i++;
 	}
 	printf("%d",i);
-	return 0;
+	getch();
   }
