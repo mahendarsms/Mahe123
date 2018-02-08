@@ -9,5 +9,5 @@ printf("tha number is postive");
 else 
 printf("tha number is negative");
 getch ();
-return 0:
+getch();
 }
