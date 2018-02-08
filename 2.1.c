@@ -11,4 +11,5 @@ void main()
         power=power*x;
     }
     printf("%d^%d=%d",x,y,power);
+    getch();
 }
