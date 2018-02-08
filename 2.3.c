@@ -2,6 +2,7 @@
 void main()
 {
 int i,a;
+clrscr();
 printf("enter the value a");
 scanf("%d",&a);
 for(i=2;i<=a;i++)
