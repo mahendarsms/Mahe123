@@ -11,5 +11,5 @@ re=re+a%10;
 a=a/10;
 }
 printf("the reverse of the number",re);
-return 0;
+return0;
 }
