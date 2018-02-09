@@ -1,19 +1,11 @@
-#include<stdio.h>
-int main()
-{
-  int a[10],temp;
-  int i;
-  for(i=0;i<10;i++);
-  {
-  scanf("%d",&a[i]);
-}
-  temp=a[0];
-  for(i=0;i<10;i++)
- {
-    if(a[0]>a[i])
-  {
-    temp=a[i]);
-  }
-  printf("the largest number is %d",temp);
-  getch();
-  }
+num=int(input())
+if num>1:
+	for i in range(2,num):
+		if(num%i==0):
+			print(num,"the number is not prime")
+			break
+	else;
+			print(num,"the number is  prime")
+  else;
+	print("the number is not prime")
+
