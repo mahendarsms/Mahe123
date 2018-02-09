@@ -12,8 +12,8 @@ int main()
   {
     if(a[0]>a[i])
     {
-      temp=a[i]);
-    }
+    temp=a[i]);
+   }
     printf("the largest number is %d",temp);
   getch();
   }
