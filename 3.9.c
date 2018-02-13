@@ -1,9 +1,20 @@
 #include<stdio.h>
-void main()
+int main()
 {
-	int a,sum=0;
-	printf("ENTER THE  NUMBER  :\n");
-	scanf("%d",&a);
-	sum=(a*(a-1))/2;
-	printf("THE SUM OF NOS %d IS %d",a,sum);
+	int min,hr=60,h,m;
+	printf("enter the minutes");
+	scanf("%d",&min);
+	if(min>hr)
+	{
+	h=min/hr;
+	m=min%hr;
+	printf("%d  %d",h,m);
+	}
+	else
+	{
+		printf("0 %d",min);
+	}
+	return ();
 }
+
+
