@@ -1,17 +1,20 @@
-#include<stdio.h>
-void main()
+import java.io.*;
+import java.math.*;
+import java.util.Scanner;
+public class Prgm31
 {
-char str[30];
-int i=0,count=0;
-  printf("enter the string");
-  scanf("%s",&str);
-while(str[i]!='\0')
-{
-if(!(str[i]==" "))
-{
-++count;
-}
-++i;
-}
-printf("no of characters is %d ",count);
-}
+	public static void main(String s[])
+	{
+		String st="i love java programming";
+		int count=0;
+		Scanner sc=new Scanner(System.in);
+		st=sc.nextLine();
+		for(int i=0;i<st.length();i++)
+		{
+			count++;
+		}
+			System.out.println("count");
+			
+		
+		}
+	}
