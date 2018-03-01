@@ -11,5 +11,5 @@ for (i = 0; i<l; i++)
 if (str[i]>='0' && str[i]<='9')
 c++;
 printf("%d",c);
-return 0;
+return0;
 }
