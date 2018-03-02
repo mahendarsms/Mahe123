@@ -1,4 +1,4 @@
-#include<stdio.h>
+#includ<stdio.h>
 int main()
 {
     int n;
