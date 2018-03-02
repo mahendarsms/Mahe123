@@ -5,7 +5,7 @@ def main():
 		t=x
 		x=y
 		y=t
-		print(x,y)
+		print(X,Y)
 	except:
 		print('invalid')
 main()
