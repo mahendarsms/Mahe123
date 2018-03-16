@@ -9,7 +9,7 @@ int main(void) {
 	m=strlen(a);
 	for(i=n;i<m;i++)
 	{
-		printf("%c",a[i]);
-	}
-	return 0;
+		printf("%c",a[i];
+		       }
+		       return 0;
 }
